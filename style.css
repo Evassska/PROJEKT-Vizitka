@@ -17,10 +17,12 @@ h1 {color: #d63031;
     width: 150px;
     height: 150px;
     border: 3px solid white;
+    outline: 0.1px solid lightgray;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     border-radius: 50%;
     position: absolute;
-    top: -37px;
-    left: 232.5px;
+    top: -75px;
+    right: -75px;
 }
 
 .box{
@@ -39,32 +41,34 @@ h1 {color: #d63031;
 
    
     .TW {
+        padding: 10px;
         width: 100%;
         font-size: 18px;
         color:white;
         margin-bottom: 5px;
         text-align: center;
         font-weight: bold;
-        background-color:#0b7bc1;
+        background-color:#1da1f2;
         border: none;
-        border-radius: 30px;
+        border-radius: 5px;
     
     }
 
     .TW:hover
-    {background-color:#2b406e;
+    {background-color:#0b7bc1;
     }        
 
     .FB {
+        padding: 10px;
         width: 100%;
         font-size: 18px;
         color:white;
         margin-bottom: 5px;
         text-align: center;
         font-weight: bold;
-        background-color:#0b7bc1;
+        background-color:#3b5998;
         border: none;
-        border-radius: 30px;}
+        border-radius: 5px;}
 
     .FB:hover {background-color:#2b406e;
     }        
